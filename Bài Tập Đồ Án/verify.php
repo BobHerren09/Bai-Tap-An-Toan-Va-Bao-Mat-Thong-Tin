@@ -5,7 +5,7 @@ if ($_POST['otp'] ==strval ($_SESSION['otp'])) {
 
 	// xác minh thành công, hiển thị thông báo
 	echo "Đăng nhập thành công! Đang Chuyển Hướng.";
-	header('Refresh: 3; URL= https://www.youtube.com/watch?v=dQw4w9WgXcQ');
+	header('Refresh: 3; URL= https://stackoverflow.com/');
 } else {
 	// xác minh không thành công, hiển thị thông báo
 	echo "Mã OTP không đúng.";
